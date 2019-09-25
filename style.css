@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Roboto, arial, sans-serif;
+}
+
+
+header {
+    height: 100vh;
+    max-width: 1940px;
+    background-image: url(img/auto2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+nav {
+
+    width: 100%;
+    background: rgb(0, 0, 0, 0.7);
+    position: fixed;
+    right: 0;
+    top: 0;
+    text-align: right;
+
+}
+
+nav a {
+
+    display: inline-block;
+
+    font-size: 30px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+    padding: 20px;
+
+}
+
+nav a:hover {
+
+    color: red;
+}
+
+header h1 {
+    font-size: 50px;
+    background-color: rgb(0, 0, 0, 0.7);
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 100px;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+
+
+header button {
+    position: absolute;
+    bottom: 30px;
+    right: 40px;
+
+    transition: 0.5s;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+header button a {
+    text-decoration: none;
+    color: crimson;
+    font-size: 24px;
+    text-transform: uppercase;
+
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+header button a:hover {
+    color: white;
+    background-color: crimson;
+}
+
+header .kontakt {
+    position: absolute;
+
+    padding: 10px;
+
+}
+
+.kontakt p {
+    text-transform: uppercase;
+    color: white;
+    font-size: 12px;
+}
+
+.kontakt p:hover {
+    color: red;
+}
+
+.wrapper {
+    max-width: 1024px;
+    margin: 50px auto;
+
+
+}
+
+.about p {
+    letter-spacing: 2px;
+}
+
+.img_about {
+    width: 300px;
+    height: 300px;
+    background-image: url(img/jaguar-2111970_1280.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    float: left;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+main div.one {
+    display: inline-block;
+    width: 33.0%;
+    margin: auto;
+}
+
+main div.image {
+    height: 200px;
+    background-color: grey;
+    margin: 10px 10px;
+}
+
+main div.image:hover {
+    background-color: aqua;
+}
+
+main h2 {
+    font-size: 20px;
+    text-align: center;
+    color: #222;
+
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    margin: 50px auto 0;
+
+
+}
+
+
+.kontakt p {
+    text-align: center;
+    font-size: 20px;
+}

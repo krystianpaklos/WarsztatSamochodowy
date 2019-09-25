@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Warsztat Samochodowy </title>
+
+    <head>
+        <!--Dwa pierwsze zawsze w tym miejscu 1. znacznik meta dotyczy kodowanie znaków 2. zancznik meta to informacje, ze strona jest przygotowana takze na urządzenia mobilne wersja (przegladarka dostosuje pewne paramtry wyświetlaczy urzadzeń mobilnych do tego)-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--  informacja dla przeglądarek Microsoft. Uruchom mnie w najwyższym twoim trybie (nie jest konieczne) -->
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+        <!--  Dwa bardzo ważne meta znaczniki z punktu widzenia dostępności strony i pozycjonowania -->
+        <title>Kwiaciarnia Jerzy. Czynne 24h. Gdańsk</title>
+        <meta name="description" content="Kwiaciarnia w Trójmieście, która robi niesamowite kwiaty w super cenach. Śluby, pogrzeby, dzień nauczyciela? Wpadaj!">
+
+        <!-- Importowanie fontów - dodaj własne jeśli chcesz zamiast tych (tylko fonty, których użyjemy na stronie)-->
+        <link href="https://fonts.googleapis.com/css?family=Saira+Condensed:400,700|Saira:400,700&amp;subset=latin-ext" rel="stylesheet">
+
+        <!-- style css, najlpiej umieszczone w innym folderze by nie zasmiecać katalogu głównego. W tym projekcie w katalogu css-->
+        <link rel="stylesheet" href="style.css">
+
+        <!--  Mało ważny meta znacznik (słowa kluczowe) z punktu widzenia pozycjonowania czy dostępności, ale jednak może się znaleźć na stronie -->
+        <meta name='keywords' content='kwiaciarnia, kwiaty, pogrzeby, bukiety, kwiaty na ślub, ubieranei sali'>
+
+        <!--  Zaproszenie robotów wyszukiwarek do indeksowania (nie musimy dodawać, bo jest domyślnie, ale możemy) -->
+        <meta name='robots' content='index,follow'>
+
+        <!--   32 x 32 W tym przypadku w folderze głównym -->
+        <link rel="icon" href="favicon.png">
+        <!--  Dodaj też (dla starych przeglądarek) favicon.ico w rozmiarze 16x16 też w katalogu głównym -->
+
+        <!--  Meta tagi na na FB - wypłenij swoimi treściami -->
+
+        <meta name='url' content='http://nazwadomenty.pl'>
+        <meta property="og:title" content="Najlepsza kwiaciarnia w Gdańsku" />
+        <meta property="og:image" content="http://nazwadomeny.pl/img/fbook.png" />
+        <!--Obrazek w rozmairze 1200px na 640px fb. Umeiść obrazke zgodnie ze ścieżką powyzej-->
+        <meta property="og:description" content="Projekt od podstaw do pierwszej pracy jako front-end developer" />
+        <meta property="og:type" content="article" />
+    </head>
+
+<body>
+    <header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">O nas</a>
+            <a href="oferta.html">Oferta</a>
+            <a href="kontakt.html">Kontakt</a>
+        </nav>
+
+        <h1>Warsztat Samochodowy</h1>
+
+    </header>
+    <div class="wrapper">
+        <main class="kontakt">
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d312776.97977776435!2d20.781007455331807!3d52.233026858630545!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x471ecc669a869f01%3A0x72f0be2a88ead3fc!2sWarszawa!5e0!3m2!1spl!2spl!4v1569398958618!5m2!1spl!2spl" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+            </div>
+
+        </main>
+
+    </div>
+    <footer>
+        <div class="kontakt">
+            <p class="otwarcie">Godziny Otwarcia: Pon-Pt 9:00-17:00</p>
+            <p class="telefon">Telefon: +48 999333000</p>
+            <p class="email"> ADRES E-MAIL: warsztatsamochodowy@email.com</p>
+        </div>
+
+
+    </footer>
+</body>
+
+</html>
